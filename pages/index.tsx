@@ -65,7 +65,7 @@ export default function Home() {
         <Box layerStyle="contain">
           <Box pos="relative" maxW="4xl" pt={{ base: "16", md: "24" }}>
             <chakra.h1 textStyle="display.2xl">
-              UI components powered by Finite State Machines
+            We build and provide tools that empower! 
             </chakra.h1>
             <chakra.p
               className="has-highlight"
@@ -73,10 +73,7 @@ export default function Home() {
               maxW="xl"
               mt="6"
             >
-              A collection of framework-agnostic UI component patterns like{" "}
-              <mark>accordion</mark>, <mark>menu</mark>, and <mark>dialog</mark>{" "}
-              that can be used to build design systems for React, Vue and
-              Solid.js
+              We help <mark>church's</mark>, <mark>christians</mark> and <mark>people</mark> around the world by empowering them!{" "}
             </chakra.p>
           </Box>
 
@@ -128,7 +125,7 @@ export default function Home() {
       >
         <Box bg="green.100" px={{ md: "20" }} py={{ base: "10", md: "20" }}>
           <chakra.h2 textStyle="display.xl" mb="8" maxW="24ch">
-            Zag provides the component API for the Web
+            Sky provides tools and services to empower churches!
           </chakra.h2>
 
           <Link href="/overview/introduction" passHref>
@@ -142,20 +139,17 @@ export default function Home() {
             spacing={{ base: "8", lg: "20" }}
             mt="12"
           >
-            <FeatureItem icon={StatechartIcon} title="Powered by Statecharts">
-              Simple, resilient component logic. Write component logic once and
-              use anywhere.
+            <FeatureItem icon={StatechartIcon} title="Social Media">
+              We connect and grow your socials to a whole new height!
             </FeatureItem>
-            <FeatureItem icon={AccessibilityIcon} title="Accessible">
-              Built-in adapters that connects machine output to DOM semantics in
-              a WAI-ARIA compliant way.
+            <FeatureItem icon={AccessibilityIcon} title="Development">
+              We build and maintain websites // applications for your church or community
             </FeatureItem>
             <FeatureItem
               icon={FrameworkAgnosticIcon}
-              title="Framework agnostic"
+              title="Growth"
             >
-              Component logic is largely JavaScript code and can be consumed in
-              any JS framework.
+              We grow your presence across multiple channel and manage your missionary // community
             </FeatureItem>
           </Stack>
         </Box>
@@ -169,18 +163,17 @@ export default function Home() {
         >
           <Box flex="1">
             <chakra.h2 mb="8" maxW="24ch" textStyle="display.xl">
-              Machines handle the logic. You handle the UI
+              We handle everything, so sit-back and chill!
             </chakra.h2>
             <chakra.p maxW="64ch" fontSize="lg">
-              Zag machine APIs are completely headless and unstyled. Use your
-              favorite styling solution and get it matching your design system.
+              Our team of experts manage your missionary // community, no matter the size - we always deliver!
             </chakra.p>
 
             <List spacing="5" mt="8" fontSize="lg">
               {[
-                "Install the machine you need",
-                "Consume the machine",
-                "Connect machine to your UI",
+                "Affordable",
+                "Breakthrough-Quality",
+                "Growth",
               ].map((item, index) => (
                 <ListItem key={index} display="flex" alignItems="flex-start">
                   <ListIcon fontSize="3xl" mr="2" as={CheckIcon} />
@@ -217,20 +210,6 @@ export default function Home() {
             </Box>
           </Center>
         </Flex>
-      </Box>
-
-      <Box as="section" my={{ base: "20", md: "32" }} layerStyle="contain">
-        <Box mb="10">
-          <chakra.h2 maxW={{ md: "24ch" }} textStyle="display.xl">
-            Work in your favorite JS framework
-          </chakra.h2>
-          <chakra.p textStyle="text.lg" maxW="560px" mt="6">
-            Finite state machines for building accessible design systems and UI
-            components. Works with React, Vue and Solid.
-          </chakra.p>
-        </Box>
-
-        <MultiframeworkTabs />
       </Box>
 
       <Box as="section" my="10" layerStyle="contain">
@@ -299,7 +278,7 @@ export default function Home() {
       >
         <Box bg="green.100" px={{ md: "20" }} py={{ base: "10", md: "20" }}>
           <chakra.h2 textStyle="display.xl" mb="8" maxW="24ch">
-            Build your design system with state machines today
+            What are you waiting for? Schedule a call!
           </chakra.h2>
 
           <Stack direction={{ base: "column", sm: "row" }} spacing="5">
