@@ -26,7 +26,7 @@ const links: FooterLinkProps[] = [
   },
   {
     icon: MdEmail,
-    label: "Send email to Segun",
+    label: "Send email to Skynet",
     href: `mailto:${siteConfig.author.email}`,
   },
 ]
@@ -42,11 +42,7 @@ export const Footer = () => (
     >
       <Text dangerouslySetInnerHTML={{ __html: siteConfig.copyright }} />
       <Text>
-        <span>
-          Proudly made in
-          <NigeriaFlag />
-        </span>
-        <span>by Segun Adebayo</span>
+          Proudly made by Solomon Shalom Lijo
       </Text>
       <Stack mt={4} direction="row" spacing="12px" justify="center">
         {links.map((link) => (

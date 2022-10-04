@@ -108,12 +108,6 @@ export default function Home() {
               </HStack>
             </Button>
           </Stack>
-
-          <HStack spacing="12">
-            <ReactIcon />
-            <VueIcon />
-            <SolidIcon />
-          </HStack>
         </Box>
       </Box>
 
