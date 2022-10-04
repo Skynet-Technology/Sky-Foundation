@@ -80,7 +80,6 @@ export function MobileNavigation() {
               <Box px="8">
                 <Spacer height="10" bg="white" />
                 <Box mb="8">
-                  <FrameworkSelect />
                 </Box>
                 <Sidebar />
               </Box>
