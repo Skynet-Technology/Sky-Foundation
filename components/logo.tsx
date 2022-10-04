@@ -26,7 +26,7 @@ export function LogoWithLink() {
   return (
     <Link href="/" passHref>
       <a
-        aria-label="Go to Zag homepage"
+        aria-label="Go to Sky Foundation homepage"
         aria-current={asPath === "/" ? "page" : undefined}
       >
         <Logo color="#000" height="8" />

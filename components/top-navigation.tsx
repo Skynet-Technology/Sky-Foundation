@@ -30,17 +30,6 @@ export function TopNavigation() {
       >
         <HStack spacing="3">
           <LogoWithLink />
-          <Badge
-            bg="orange.100"
-            color="orange.700"
-            px="2"
-            py="0.5"
-            fontSize="xs"
-            letterSpacing="wider"
-            fontWeight="semibold"
-          >
-            BETA
-          </Badge>
           {/* <WorkshopLink /> */}
         </HStack>
         <HStack spacing="8">
