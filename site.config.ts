@@ -1,9 +1,9 @@
 const baseConfig = {
   repo: "https://github.com/chakra-ui/zag-docs",
-  title: "Zag - Rapidly build UI components without sweating over the logic.",
+  title: "Sky Foundation - Building and providing tools that empower!",
   description:
-    "State machines for accessible, interactive and performant UI components",
-  url: "https://zagjs.com",
+    "We help church's, christians and people around the world by empowering them!",
+  url: "https://skyfoundation.ml",
 }
 
 const siteConfig = {
@@ -14,20 +14,19 @@ const siteConfig = {
     url: "https://opencollective.com/chakra-ui",
   },
   author: {
-    name: "Segun Adebayo",
-    github: "https://github.com/segunadebayo",
-    twitter: "https://twitter.com/thesegunadebayo",
-    linkedin: "https://linkedin.com/in/thesegunadebayo",
-    polywork: "https://www.polywork.com/segunadebayo",
-    email: "sage@adebayosegun.com",
+    name: "Sky Foundation",
+    github: "https://github.com/skynet-technology",
+    twitter: "#",
+    linkedin: "#",
+    email: "skynet@skiff.com",
   },
   repo: {
-    url: "https://github.com/chakra-ui/zag",
+    url: "https://github.com/skynet-technology/sky-foundation",
     editUrl: `${baseConfig.repo}/edit/main/data`,
     blobUrl: `${baseConfig.repo}/blob/main`,
   },
   discord: {
-    url: "https://zagjs.com/discord",
+    url: "https://discord.gg/43h2FhdfM9",
   },
   seo: {
     title: baseConfig.title,
