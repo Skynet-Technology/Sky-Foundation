@@ -45,12 +45,6 @@ const sidebar: Record<"docs", SidebarItem[]> = {
           id: "programmatic-control",
         },
         { type: "doc", label: "FAQ", id: "faq" },
-        {
-          type: "doc",
-          label: "Changelog",
-          id: "changelogs",
-          href: "/changelogs/latest",
-        },
       ],
     },
   ],
