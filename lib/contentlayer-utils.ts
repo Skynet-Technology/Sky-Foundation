@@ -85,35 +85,3 @@ export function getSnippetDoc(slug: string | string[]) {
     (snippet) => snippet.frontmatter.slug === `/snippets/${slug}`,
   )
 }
-
-/* -----------------------------------------------------------------------------
- * Changelog
- * -----------------------------------------------------------------------------*/
-
-export function getChangelogPaths() {
-  return allChangelogs.map((doc) => `/${doc.params.join("/")}`)
-}
-
-export function getChanglogDoc(slug: string | string[]) {
-  if (slug === "latest") {
-    return allChangelogs.sort(sortByDate)[0]
-  }
-
-  return allChangelogs.find(
-    (doc) => doc.frontmatter.slug === `/changelogs/${slug}`,
-  )
-}
-
-const sortByDate = (a: any, b: any) => {
-  const aDate = new Date(a.releaseDate)
-  const bDate = new Date(b.releaseDate)
-  return bDate.getTime() - aDate.getTime()
-}
-
-export function getChangelogToc() {
-  return allChangelogs.sort(sortByDate).map((doc) => ({
-    slug: doc.slug,
-    content: doc.releaseDate,
-    lvl: 2,
-  }))
-}
