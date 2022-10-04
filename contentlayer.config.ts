@@ -133,7 +133,7 @@ const Snippet = defineDocumentType(() => ({
 
 const contentLayerConfig = makeSource({
   contentDirPath: "data",
-  documentTypes: [Overview, Guide, Snippet, Component, Changelog],
+  documentTypes: [Overview, Guide, Snippet, Component],
   mdx: {
     remarkPlugins: [remarkGfm, remarkDirective, remarkAdmonition],
     rehypePlugins: [

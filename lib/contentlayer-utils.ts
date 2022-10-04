@@ -3,7 +3,6 @@ import {
   allOverviews,
   allGuides,
   allSnippets,
-  allChangelogs,
 } from "contentlayer/generated"
 import { Framework, FRAMEWORKS, isFramework } from "./framework-utils"
 
