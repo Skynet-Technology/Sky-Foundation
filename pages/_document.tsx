@@ -40,7 +40,7 @@ export default function Document() {
           <script
             async
             defer
-            data-domain="zagjs.com"
+            data-domain="skyfoundation.ml"
             src="https://plausible.io/js/plausible.js"
           />
         )}

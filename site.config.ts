@@ -1,5 +1,5 @@
 const baseConfig = {
-  repo: "https://github.com/chakra-ui/zag-docs",
+  repo: "https://github.com/skynet-technology/sky-foundation",
   title: "Sky Foundation - Building and providing tools that empower!",
   description:
     "We help church's, christians and people around the world by empowering them!",
@@ -8,7 +8,7 @@ const baseConfig = {
 
 const siteConfig = {
   ...baseConfig,
-  projectName: "zag-js",
+  projectName: "Sky-Foundation",
   copyright: `Copyright &copy; ${new Date().getFullYear()}`,
   openCollective: {
     url: "https://opencollective.com/chakra-ui",
@@ -30,11 +30,11 @@ const siteConfig = {
   },
   seo: {
     title: baseConfig.title,
-    titleTemplate: "%s - Zag",
+    titleTemplate: "%s - Sky Foundation",
     description: baseConfig.description,
     siteUrl: baseConfig.url,
     twitter: {
-      handle: "@zag_js",
+      handle: "#",
       site: baseConfig.url,
       cardType: "summary_large_image",
     },

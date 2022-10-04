@@ -50,7 +50,7 @@ export function TopNavigation() {
             <IconLink
               href={siteConfig.repo.url}
               icon={GithubIcon}
-              label="View Zag.js on Github"
+              label="View Skynet on Github"
             />
             <IconLink
               href={siteConfig.discord.url}

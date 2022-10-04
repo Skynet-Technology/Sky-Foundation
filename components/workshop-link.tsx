@@ -16,11 +16,11 @@ export function WorkshopLink() {
       href="/creator-workshop"
       className="group"
     >
-      <b>Creator's Workshop</b>
+      <b></b>
       <svg width="2" height="2" fill="currentColor" aria-hidden="true">
         <circle cx="1" cy="1" r="1"></circle>
       </svg>
-      <span className="ml-2">Learn how to use Zag from its creator</span>
+      <span className="ml-2"></span>
       <Icon as={FaChevronRight} w="auto" fontSize="10px" />
     </HStack>
   )
