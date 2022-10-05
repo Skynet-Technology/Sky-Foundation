@@ -209,37 +209,30 @@ export default function Home() {
       <Box as="section" my="10" layerStyle="contain">
         <Box maxW="72ch" mx="auto">
           <chakra.h2 textStyle="display.xl" mb="10">
-            The better way to model component logic
+            Empowering and growing, together!
           </chakra.h2>
           <chakra.div fontSize="md" className="x">
-            Today, design systems are becoming a very popular toolkit for
-            companies to create a cohesive and accessible user experience for
-            their customers.
+            Today, a lot of communities struggle with growth and some are losing hope
             <br /> <br />
-            With the rise of component-driven development, there's an endless
-            re-implementation of common widgets (tabs, menu, etc.) in multiple
-            frameworks. These implementations tend to grow in complexity over
-            time and often become hard to understand, debug, improve, or test.
+            That's where sky foundation, brides the gap between your communtiy and success
+            by providing tools that will empower and grow it for a global impact. 
             <chakra.blockquote
               layerStyle="blockquote"
               fontWeight="semibold"
               borderLeft="2px"
               borderLeftColor="green.500"
             >
-              We need a better way to model component logic.
+              We don't just provide tools that empower you in the short-term, but we do it for an everlasting
+              impact
             </chakra.blockquote>
-            <mark>Zag is a new approach</mark> to the component design process,
-            designed to help you avoid re-inventing the wheel and build better
-            UI components regardless of framework. Heavily inspired by XState,
-            but built to make it easier to maintain, test, and enhance.
+            The best part? we manage // create almost everything you would need for the future for your church // 
+            community in an affordable package :D 
             <br /> <br />
-            With Zag, we're abstracting the complex logic for many components
-            into a cohesive, framework-agnostic system — giving you complete
-            control over styling and providing a thin adapter for your favorite
-            framework.
+            So, don't worru - leave everything to us, while you can just sit, chill, maybe take a cup of coffee and
+            see the growth you always wanted!
             <br /> <br />
             <mark>
-              Welcome to the future of building interactive components!
+              Welcome to the future of communties!
             </mark>
           </chakra.div>
 
@@ -254,10 +247,10 @@ export default function Home() {
             </Circle>
             <Stack spacing="1">
               <chakra.h3 fontSize="lg" fontWeight="semibold">
-                Segun Adebayo
+                Solomon Shalom Lijo
               </chakra.h3>
               <chakra.p fontSize="md" textStyle="text.sm">
-                Creator of Zag.js
+                Co-Founder and CTO
               </chakra.p>
             </Stack>
           </HStack>
